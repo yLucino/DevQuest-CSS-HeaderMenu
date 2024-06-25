@@ -1,0 +1,32 @@
+@media (max-width: 500px) {
+  .header-menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .bar-menu ul {
+    display: grid;    
+  }
+
+  .bar-menu ul li {
+    display: grid;    
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .bar-menu ul li a{
+    width: 150px;
+    margin-bottom: 10px;
+  }
+
+  .bar-menu a.btn-cadastro {
+    margin-top: 20px;
+  }
+}
